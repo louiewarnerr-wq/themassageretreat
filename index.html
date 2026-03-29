@@ -1,61 +1,173 @@
-
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>The Massage Retreat</title>
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Inter&display=swap" rel="stylesheet">
-<style>
-body{margin:0;font-family:Inter;background:#0f0f10;color:#fff}
-header{display:flex;justify-content:space-between;padding:20px 40px;background:#111}
-a{color:#d4af7f;text-decoration:none;margin:0 10px}
-.hero{height:100vh;background:url('https://images.unsplash.com/photo-1544161515-4ab6ce6db874') center/cover;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center}
-h1{font-family:'Playfair Display';font-size:60px}
-.btn{margin-top:20px;padding:14px 30px;background:#d4af7f;color:black;border-radius:40px}
-.section{padding:80px 20px;text-align:center}
-.cards{display:flex;gap:20px;flex-wrap:wrap;justify-content:center}
-.card{background:#181818;padding:25px;border-radius:15px;width:260px;box-shadow:0 10px 30px rgba(0,0,0,0.5)}
-footer{padding:40px;background:#111;text-align:center}
-</style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Home | The Massage Retreat</title>
+  <meta name="description" content="Luxury mobile massage in Surrey by Mia. Relax, restore and rebalance from the comfort of your own home.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/styles.css">
 </head>
 <body>
+  <div class="topbar"><div class="container topbar-inner">Luxury mobile massage in Surrey · £10 deposit required to secure appointments</div></div>
+  <header class="site-header">
+    <div class="container">
+      <div class="nav">
+        <a class="brand" href="/">
+          <img src="/assets/logo-main.jpeg" alt="The Massage Retreat logo">
+          <div><h2>The Massage Retreat</h2><p>by Mia’s Mobile Massage Retreat</p></div>
+        </a>
+        <nav class="nav-links">
+          <a href="/treatments.html">Treatments</a>
+          <a href="/prices.html">Prices</a>
+          <a href="/book.html">Book</a>
+          <a href="/reviews.html">Reviews</a>
+          <a href="/about.html">About</a>
+          <a href="/contact.html">Contact</a>
+          <a class="btn" href="/book.html">Book now</a>
+        </nav>
+        <button class="mobile-menu-btn" data-menu-btn>Menu</button>
+      </div>
+      <div class="mobile-panel" data-mobile-panel>
+        <a href="/treatments.html">Treatments</a>
+        <a href="/prices.html">Prices</a>
+        <a href="/book.html">Book</a>
+        <a href="/reviews.html">Reviews</a>
+        <a href="/about.html">About</a>
+        <a href="/contact.html">Contact</a>
+      </div>
+    </div>
+  </header>
+  
+<main>
+  <section class="hero">
+    <div class="container hero-grid">
+      <div class="glass hero-copy reveal">
+        <div class="eyebrow">Luxury mobile massage in Surrey</div>
+        <h1>Relax. Restore. Rebalance.</h1>
+        <p class="lead">A refined at-home massage experience by Mia — designed to help clients unwind, reduce tension and feel completely looked after from booking to aftercare.</p>
+        <div class="hero-actions">
+          <a class="btn" href="/book.html">Book appointment</a>
+          <a class="btn secondary" href="/treatments.html">View treatments</a>
+        </div>
+        <div class="inline-tags">
+          <span class="tag">£10 deposit to secure booking</span>
+          <span class="tag">Mobile service</span>
+          <span class="tag">Professional & respectful</span>
+        </div>
+      </div>
+      <div class="glass hero-visual reveal">
+        <img src="/assets/hero-main.jpeg" alt="The Massage Retreat brand visual">
+        <div class="hero-overlay"></div>
+        <div class="floating-card">
+          <strong>The Massage Retreat</strong>
+          <div style="color:var(--muted);line-height:1.7">Luxury mobile massage by Mia’s Mobile Massage Retreat, with a calm, polished experience clients can trust.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="marquee-wrap">
+    <div class="container">
+      <div class="marquee">
+        <span>Mobile massage</span><span>Relaxation treatments</span><span>Deep tissue massage</span><span>Pregnancy massage</span><span>£10 deposit booking</span><span>Luxury home experience</span>
+        <span>Mobile massage</span><span>Relaxation treatments</span><span>Deep tissue massage</span><span>Pregnancy massage</span><span>£10 deposit booking</span><span>Luxury home experience</span>
+      </div>
+    </div>
+  </div>
+  <section class="section">
+    <div class="container trust-strip">
+      <div class="card trust-item reveal"><strong>Mobile service</strong><div style="color:var(--muted);margin-top:8px">Massage brought to the client</div></div>
+      <div class="card trust-item reveal"><strong>Secure deposit</strong><div style="color:var(--muted);margin-top:8px">£10 secures the appointment</div></div>
+      <div class="card trust-item reveal"><strong>Professional care</strong><div style="color:var(--muted);margin-top:8px">Respectful, calm and client-focused</div></div>
+      <div class="card trust-item reveal"><strong>Simple booking</strong><div style="color:var(--muted);margin-top:8px">Choose a service and available time</div></div>
+    </div>
+  </section>
+  <section class="section">
+    <div class="container section-head">
+      <div>
+        <h2 class="section-title">A more elevated massage experience</h2>
+        <p class="section-copy">The website is built to feel premium and reassuring, while keeping the booking journey clear and simple for real clients.</p>
+      </div>
+    </div>
+    <div class="grid-3">
+      <div class="card reveal"><div class="icon">✦</div><h3>Signature treatments</h3><p>Swedish, deep tissue, pregnancy massage and custom packages built around relaxation, tension relief and restoration.</p></div>
+      <div class="card reveal"><div class="icon">✦</div><h3>Professional presentation</h3><p>Elegant branding, clear policy information and trust-focused website sections designed to reassure first-time clients.</p></div>
+      <div class="card reveal"><div class="icon">✦</div><h3>Simple for Mia to manage</h3><p>A streamlined booking flow with live availability and deposit-secured appointments keeps the business easier to run.</p></div>
+    </div>
+  </section>
+  <section class="section">
+    <div class="container stat-row">
+      <div class="card stat reveal"><strong>£10</strong><span>Deposit to secure every booking</span></div>
+      <div class="card stat reveal"><strong>24 hrs</strong><span>Notice required to reschedule</span></div>
+      <div class="card stat reveal"><strong>15 mins</strong><span>Arrival window before treatment</span></div>
+    </div>
+  </section>
+  <section class="section">
+    <div class="container booking-layout">
+      <div class="card reveal callout">
+        <h2 class="section-title">How booking works</h2>
+        <p class="section-copy">Clients choose a treatment, select an available time and secure the booking with a £10 deposit. The process is designed to feel smooth and professional.</p>
+        <ul><li>Choose a treatment</li><li>Select a time from Mia’s available slots</li><li>Pay the £10 deposit securely</li><li>Receive confirmation and reminders</li></ul>
+        <div style="margin-top:18px;display:flex;gap:12px;flex-wrap:wrap"><a class="btn" href="/book.html">Go to booking</a><a class="btn secondary" href="/policies.html">View policies</a></div>
+      </div>
+      <div class="card image-card reveal"><img src="/assets/pricing-card.jpeg" alt="Massage pricing and treatment details"></div>
+    </div>
+  </section>
+  <section class="section">
+    <div class="container section-head">
+      <div><h2 class="section-title">Client reviews</h2><p class="section-copy">Strong social proof helps the business feel more established and trustworthy from the very first visit.</p></div>
+      <a class="btn secondary" href="/reviews.html">View review page</a>
+    </div>
+    <div class="card review-slider reveal" data-review-slider>
+      <div class="review-track" data-review-track>
+        <div class="review-slide"><p class="review-quote" data-review-1>So relaxing and professional. I felt comfortable from the moment Mia arrived.</p><div class="review-meta">Client review · Home massage appointment</div></div>
+        <div class="review-slide"><p class="review-quote" data-review-2>A beautiful experience from start to finish. I would absolutely book again.</p><div class="review-meta">Client review · Returning customer</div></div>
+        <div class="review-slide"><p class="review-quote" data-review-3>Calm, professional and convenient. Having the treatment at home made all the difference.</p><div class="review-meta">Client review · First-time booking</div></div>
+      </div>
+      <div class="review-controls"><button class="review-btn" data-prev>Previous</button><button class="review-btn" data-next>Next</button></div>
+    </div>
+  </section>
+</main>
 
-<header>
-<div><b>The Massage Retreat</b></div>
-<div>
-<a href="book.html">Book</a>
-<a href="contact.html">Contact</a>
-<a href="admin.html">Portal</a>
-</div>
-</header>
-
-<div class="hero">
-<h1>Luxury Mobile Massage</h1>
-<p>Relax. Restore. Rebalance.</p>
-<a class="btn" href="book.html">Book Now</a>
-</div>
-
-<div class="section">
-<h2>Treatments</h2>
-<div class="cards">
-<div class="card">Swedish Massage</div>
-<div class="card">Deep Tissue</div>
-<div class="card">Pregnancy Massage</div>
-</div>
-</div>
-
-<div class="section">
-<h2>Why Choose Us</h2>
-<div class="cards">
-<div class="card">Mobile to You</div>
-<div class="card">£10 Deposit Secure</div>
-<div class="card">Professional Service</div>
-</div>
-</div>
-
-<footer>
-<p>© The Massage Retreat</p>
-</footer>
-
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <img src="/assets/logo-main.jpeg" alt="The Massage Retreat logo">
+          <h3>The Massage Retreat</h3>
+          <p>Luxury mobile massage experiences by Mia, designed to bring calm, comfort and care directly into the home.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Explore</h4>
+          <a href="/treatments.html">Treatments</a>
+          <a href="/prices.html">Prices</a>
+          <a href="/book.html">Book now</a>
+          <a href="/reviews.html">Reviews</a>
+        </div>
+        <div class="footer-col">
+          <h4>Information</h4>
+          <a href="/about.html">About Mia</a>
+          <a href="/policies.html">Booking policies</a>
+          <a href="/contact.html">Contact</a>
+        </div>
+        <div class="footer-col">
+          <h4>Connect</h4>
+          <a data-email-link href="mailto:hello@themassageretreat.com">hello@themassageretreat.com</a>
+          <a data-phone-link class="hidden" href="#"></a>
+          <a data-instagram-link href="#">Instagram</a>
+          <a data-facebook-link href="#">Facebook</a>
+          <a data-tripadvisor-link href="#">Tripadvisor</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div>© The Massage Retreat / Mia’s Mobile Massage Retreat</div>
+        <div>Professional mobile massage · Surrey</div>
+      </div>
+    </div>
+  </footer>
+  <script src="/assets/config.js"></script>
+  <script src="/assets/script.js"></script>
 </body>
 </html>
