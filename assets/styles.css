@@ -107,3 +107,6 @@ textarea{min-height:160px;resize:vertical}
   .mobile-panel.open{display:block}
   h1{font-size:46px}
 }
+
+.booking-layout .card h3 + p{margin-top:0}
+.callout .btn{min-width:190px}

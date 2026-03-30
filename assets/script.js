@@ -51,3 +51,15 @@
   if(r2 && cfg.review2) r2.textContent = cfg.review2;
   if(r3 && cfg.review3) r3.textContent = cfg.review3;
 })();
+
+(function(){
+  const cfg = window.SITE_CONFIG || {};
+  document.querySelectorAll('[data-booking-link]').forEach(function(link){
+    if(!cfg.bookingUrl){
+      link.addEventListener('click', function(e){
+        e.preventDefault();
+        alert('Booking will be available shortly. Please contact The Massage Retreat directly to arrange an appointment.');
+      });
+    }
+  });
+})();
