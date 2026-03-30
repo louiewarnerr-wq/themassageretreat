@@ -1,5 +1,5 @@
 window.SITE_CONFIG = {
-  bookingUrl: "",
+  bookingUrl: "https://www.fresha.com/book-now/the-massage-retreat-bzweiepq/services?lid=2931912&share=true&pId=2834486",
   instagramUrl: "https://www.instagram.com/themassageretreat_surrey/",
   facebookUrl: "https://www.facebook.com/",
   tripadvisorUrl: "https://www.tripadvisor.com/",
